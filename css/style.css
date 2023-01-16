@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-family: 'Open Sans', sans-serif;
+    outline: 0;
+}
+.nav-title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+header{
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    cursor: pointer;
+    margin-left: 50px;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+.btn-primary{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 30px;
+    border-radius: 4px;
+    background-color: #FD6E0A;
+    color: #fff;
+    border: none;
+}
+
+/* banner header */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 150px;
+    align-items: center;
+}
+.banner h3{
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 5px;
+}
+.banner h1{
+    font-weight: 700;
+    font-size: 85px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.banner p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+
+/* about section */
+.about{
+    margin: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 155px;
+}
+.about-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.about-description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.about-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.about-details .about-details-info{
+    padding: 20px;
+}
+.about-details .about-details-info p{
+    font-weight: 400;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.about-details .about-details-info h5{
+    font-weight: 700;
+    font-size: 20px;
+}
